@@ -1,0 +1,146 @@
+
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="shortcut icon" href="img/lifestyleStore.png" />
+        <title>BRGY STONINO</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <!-- External CSS -->
+        <link rel="stylesheet" href="./css/boxicons.css">
+        <link rel="stylesheet" href="./css/bootstrap.min.css">
+        <link rel="stylesheet" href="./css/home.css">
+        <link rel="stylesheet" href="./css/navigation.css">
+        <link rel="stylesheet" href="./css/footer.css">
+
+    </head>
+
+    <body>
+  <div class="nav-wrapper">
+  <nav class="navbar">
+    <img src=img/brgylogo.png >
+    <h1 class="logo-text">Brgy. Sto Nino</h1>
+    <div class="menu-toggle" id="mobile-menu">
+      <span class="bar"></span>
+      <span class="bar"></span>
+      <span class="bar"></span>
+    </div>
+
+    <ul class="nav no-search">
+      <li class="nav-item"><a href="#">Home</a></li>
+      <li class="nav-item"><a href="#">Services</a></li>
+      <li class="nav-item"><a href="#">News</a></li>
+      <li class="nav-item"><a href="#">About</a></li>
+      <li class="nav-item"><a href="#">Contact</a></li>
+      <i class="bx bx-search-alt-2"></i>
+
+    </ul>
+  </nav>
+  </div>
+  
+  <section class="headline">
+    <div class="cover-image">
+      <h1>Welcome To Brgy Sto. Nino</h1>
+    </div>
+  </section>
+
+<!-- MISSION & VISION -->
+  <section class="features-1">
+  <div class="feature-container">
+    <h2>Mission</h2>
+    <p>To prepare the students to become effective and competitive successful leaders of society capable of making sound contribution within the global market place</p>
+  </div>
+  <div class="feature-container">
+    <h2>Vision</h2>
+    <p>A premier institution of higher learning in the Southern Tagalog Region committed to producing quality, technology-based and competitive graduates embodied with moral, social and ethical values who will be leaders in business, industry and society.</p>
+  </div>
+</section>
+
+<div class="Announcement">
+  <div class="AnnText">
+    <h2 class="AnnTitle">Announcements</h2>
+    <p class="AnnDescription">Find out what’s going on & stay up to date.</p>
+  </div>
+  <div class="AnnButtonWrapper">
+    <button class="AnnButton">View All</button>
+  </div>
+</div>
+
+<!-- ANNOUNCEMENT -->
+  <section class="features-2">
+  <div class="feature-container">
+    <img src="img/cityhall.jpg" alt="Flexbox Feature">
+    <h2>Flexbox Featured</h2>
+    <p>This pen contains use of flexbox for the headline and feature section! We use it in our mobile navbar and show the power of mixing CSS grid and flexbox.</p>
+  </div>
+  <div class="feature-container">
+    <img src="img/cityhall.jpg" alt="Flexbox Feature">
+    <h2>CSS Grid Navigation</h2>
+    <p>While flexbox is used for the mobile navbar, CSS grid is used for the desktop navbar showing many ways we can use both.</p>
+  </div>
+  <div class="feature-container">
+    <img src="img/cityhall.jpg" alt="Flexbox Feature">
+    <h2>Basic HTML5</h2>
+    <p>This pen contains basic HTML to set up the page to display the responsive navbar.</p>
+  </div>
+</section>
+
+</div>
+
+
+<footer class="footer-section">
+  <div class="container">
+            <div class="footer-content pt-5 pb-5">
+              <div class="row">
+                  <div class="col-xl-4 col-lg-4 mb-50">
+                      <div class="footer-widget">
+                          <div class="footer-logo">
+                              <a href="home.html"><img src="img/brgylogo.png" class="img-fluid" alt="logo"></a>
+                          </div>
+                          <div class="footer-widget-heading">
+                            <h3>Baranggay Sto. Nino</h3>
+                        </div>
+                      </div>
+                  </div>
+                  <div class="col-xl-4 col-lg-4 col-md-6 mb-50">
+                      <div class="footer-widget">
+                          <div class="footer-widget-heading">
+                              <h3>Browse</h3>
+                          </div>
+                          <ul>
+                              <li><a href="#">Home</a></li>
+                              <li><a href="announcement.html">Announcements</a></li>
+                              <li><a href="services.html">Services</a></li>
+                              <li><a href="about.html">About</a></li>
+                              <li><a href="contact">Contact</a></li>
+                          </ul>
+                      </div>
+                  </div>
+                  <div class="col-xl-4 col-lg-4 col-md-6 mb-50">
+                    <div class="footer-widget">
+                        <div class="footer-widget-heading">
+                            <h3>Contact Information</h3>
+                        </div>
+                            <span style="color: #757575;">4F New City Hall Bldg., Brgy. Poblacion, City of San Pedro, Laguna</span><br><br>
+                        </div>
+                    </div>
+                </div>
+
+<script>
+  $("#search-icon").click(function() {
+  $(".nav").toggleClass("search");
+  $(".nav").toggleClass("no-search");
+  $(".search-input").toggleClass("search-active");
+  });
+
+  $('.menu-toggle').click(function(){
+ $(".nav").toggleClass("mobile-nav");
+ $(this).toggleClass("is-active");
+});
+
+</script>
+
+  
+</body>
+</html>

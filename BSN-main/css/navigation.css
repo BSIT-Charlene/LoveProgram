@@ -1,0 +1,60 @@
+/* NAVIGATION */
+
+a:hover,
+a:focus,
+a:active,
+a.active {
+    color: #17d0d5;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center; 
+}
+
+.navbar img {
+  width: 60px; 
+  height: auto; 
+}
+
+.logo-text {
+  color: #fff;
+  align-items: center; 
+}
+
+
+.menu-toggle {
+  display: none; 
+}
+
+
+.nav {
+  list-style: none;
+  display: flex;
+}
+
+
+.nav-item {
+  margin-right: 15px; 
+}
+
+.nav li.nav-item a {
+  color: white; 
+  text-decoration: none;
+}
+
+
+@media screen and (max-width: 768px) {
+  .menu-toggle {
+    display: block; 
+  }
+
+  .nav {
+    display: none; 
+  }
+
+  .search-input {
+    display: block; 
+  }
+}
