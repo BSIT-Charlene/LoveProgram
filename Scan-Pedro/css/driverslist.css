@@ -1,0 +1,94 @@
+*{
+  font-family: Poppins;
+}
+
+.card {
+  flex-direction: row;
+  align-items: center;
+  padding: 10px;
+  border-radius: 10px;
+  margin: 0 10px 20px 10px;
+}
+
+.vehiclebg{
+  height: 50%;
+  background-color: #004402;
+  width: 90%;
+  margin-left: 70px;
+}
+
+.title{
+  display: flex;
+  width: 100%;
+  margin: 10px 0 25px 25px;
+  font-weight: bold;
+  color: #004402;
+  font-size: 18px;
+}
+
+.unit-no{
+  display: flex;
+  color: #004402;
+  font-weight: bold;
+  font-size: 23px;
+  width: 10%;
+  margin-left: 30px;
+}
+
+.vehicle-info{
+  border-radius: 8px;
+  padding: 10px;
+  color: #004402;
+  width: 111%;
+  margin: 0 -11px;
+}
+
+.vehicle-info table{
+  width: 100%;
+  text-align: center;
+  overflow-x: auto;
+}
+
+.driverbg{
+  background-color: #fff;
+  width: 90%;
+  margin-left: 70px;
+
+.license-text{
+  color: rgba(0, 0, 0, 0.80);
+  width: 100%;
+  font-size: 15px;
+}
+
+.driver-info{
+  width: 100%;
+  margin-left: 30px;
+}
+
+.driver-info p{
+  margin: 3px 0;
+  font-weight: bold;
+  font-size: 20px;
+  width: 100%;
+  color: #004402;
+}
+
+.addviolation-btn {
+  font-family: Poppins;
+  display: flex;
+  width: 100%;
+  justify-content: right;
+}
+
+.submit-btn {
+  color: white;
+  background-color: #004402;
+  height: 40px;
+  padding: 8px 50px;
+  cursor: pointer;
+  border-style: none;
+  border-radius: 5px;
+  margin-top:-50px;
+}
+
+

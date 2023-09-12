@@ -1,0 +1,72 @@
+*{
+  font-family: Poppins;
+}
+
+.vehicle-card{
+  display: flex;
+  background-color: #fff;
+  width: 100%;
+  flex-direction: row;
+  padding: 10px;
+  border-radius: 10px;
+  margin: 0 10px 20px 10px;
+}
+
+.title{
+  display: flex;
+  width: 100%;
+  margin: 10px 0 20px 21px;
+  font-weight: bold;
+  color: #004402;
+  font-size: 18px;
+}
+
+.unit-card{
+  background-color: #004402;
+  flex-direction: row;
+  padding: 10px;
+  border-radius: 10px;
+  width: 30%;
+  margin: 50px 30px;
+}
+
+.unit-text{
+  color: #fff;
+  font-weight: bold;
+  font-size: 23px;
+  margin-left: 10px;
+}
+
+.vehicle-details-card{
+  margin: 15px 0 15px 20px;
+  flex-direction: row;
+  align-items: center;
+  padding: 10px;
+  border-radius: 10px;
+  width: 90%;
+  background-color: #fff;
+}
+
+.vehicle-details-text{
+  color: #004402;
+  width: 100%;
+  font-weight: bold;
+  font-size: 18px;
+  margin-left: 10px;
+}
+
+.seedrivers-btn{
+  font-family: Poppins;
+  margin-top: 20px;
+  display: flex;
+  justify-content: right;
+}
+
+.submit-btn {
+  color: white;
+  background-color: #004402;
+  padding: 8px 45px;
+  cursor: pointer;
+  border-style: none;
+  border-radius: 5px;
+}

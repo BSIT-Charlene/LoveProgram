@@ -1,0 +1,326 @@
+.form-section{
+  background: white;
+  border-radius: 10px;
+  padding: 20px 30px;
+}
+
+.form-header{
+  display: flex;
+}
+
+.logo-container{
+  display: flex;
+  width: 100%;
+  height: 120px;
+  justify-content: center;
+}
+
+.logo-container img{
+  display: flex;
+}
+
+.header-text{
+  display: flex;
+  flex-direction: column;
+  justify-content: end;
+  align-items: center;
+  height: 100%;
+  font-family: 'Times New Roman', Times, serif;
+  color: black;
+  font-size: 18px;
+}
+
+.header-text b{
+  color: rgba(0, 0, 0, 0.65);
+}
+
+.border-line{
+  width: 100%;
+  border-bottom: solid 1px rgba(0, 0, 0, 0.25);
+}
+
+.form-body{
+  font-family: Poppins;
+}
+
+.application-text{
+  font-weight: bold;
+  color: rgba(0, 0, 0, 0.65);
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  margin: 20px 0;
+  font-size: 17px;
+}
+
+.input-div{
+  padding: 0; 
+  display: flex;
+  flex-direction: column;
+}
+
+.input-div span{
+  padding: 5px 0;
+  font-weight: bold;
+  color: rgba(0, 0, 0, 0.65);
+}
+
+.input-div select{
+  padding: 10px;
+  border-radius: 10px;
+  border: rgba(0, 0, 0, 0.25) solid 1px;
+  cursor: pointer;
+}
+
+.franchise-text{
+  display: flex;
+  width: 100%;
+  margin: 10px 0;
+  font-weight: bold;
+  color: rgba(0, 0, 0, 0.65);
+}
+
+.operator-info{
+  border: solid 1px rgba(0, 0, 0, 0.25);
+  border-radius: 8px;
+  padding: 10px;
+  color: rgba(0, 0, 0, 0.65);
+  font-weight: bold;
+}
+
+.input-div input{
+  padding: 10px;
+  border-radius: 10px;
+  border: rgba(0, 0, 0, 0.25) solid 1px;
+}
+
+.franchise-text2{
+  display: flex;
+  width: 100%;
+  margin-bottom: 15px;
+}
+
+.input-row{
+  margin: 20px 0;
+}
+
+.driver-check{
+  border: rgba(0, 0, 0, 0.25) solid 1px;
+  border-radius: 10px;
+  padding: 10px;
+}
+
+.check-text{
+  display: flex;
+  width: 100%;
+  font-weight: bold;
+  color: rgba(0, 0, 0, 0.65);
+  border: rgba(0, 0, 0, 0.25) solid 1px;
+  border-radius: 10px;
+  padding: 10px;
+  flex-direction: column;
+  align-items: start;
+}
+
+.checkbox-group {
+  padding: 10px;
+  display: flex;
+  align-items: center;
+}
+
+.checkbox-group input[type="checkbox"] {
+  display: none;
+}
+
+.checkbox-label {
+  position: relative;
+  width: 25px;
+  height: 25px;
+  border: 1px solid #ccc;
+  background-color: transparent;
+  cursor: pointer;
+  display: inline-block;
+  margin-bottom: 0;
+  border-radius: 5px;
+}
+
+.driver-label{
+  margin-right: 8px;
+}
+
+.checkbox-group input[type="checkbox"]:checked + .checkbox-label::before {
+  content: "\2713";
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+}
+
+.checkbox-group input[type="checkbox"]:checked + .checkbox-label {
+  background-color: #004402;
+}
+
+.vehicle-info{
+  width: 100%;
+}
+
+.vehicle-info input {
+  padding: 10px;
+  border-radius: 10px;
+  border: rgba(0, 0, 0, 0.25) solid 1px;
+  min-width: 100%;
+}
+
+
+.vehicle-info th, td{
+  padding: 15px 10px;
+}
+
+.unit-count{
+  min-width: 200px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.data-row{
+  border-top: rgba(0, 0, 0, 0.25) solid 1px;
+}
+
+.motor-description{
+  border: solid 1px rgba(0, 0, 0, 0.25);
+  border-radius: 8px;
+  padding: 10px;
+  color: rgba(0, 0, 0, 0.65);
+  font-weight: bold;
+  margin-top: 20px;
+  text-align: center;
+  overflow-x: auto;
+}
+
+.add-btn-container {
+  display: flex;
+  justify-content: center;
+  background-color: white;
+  z-index: 1;
+  text-align: center;
+}
+
+.add-btn{
+  width: 100%;
+  background-color: #004402;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  padding: 5px;
+  cursor: pointer;
+  font-weight: bold;
+  font-size: 20px;
+  transition: all ease .2s;
+}
+
+.add-btn:hover{
+  background-color: #062407;
+  transition: all ease .2s;
+}
+
+.assessment{
+  margin: 0 0 20px 0;
+}
+
+.requirement-text-grp{
+  display: flex;
+  flex-direction: column;
+}
+
+.requirement-checklist{
+  border: solid 1px rgba(0, 0, 0, 0.25);
+  border-radius: 8px;
+  padding: 10px;
+  color: rgba(0, 0, 0, 0.65);
+  font-weight: bold;
+  margin-top: 20px;
+  margin-right: 10px;
+}
+
+.requirement-text{
+  color: rgba(0, 0, 0, 0.40);
+  font-size: 12px;
+  padding: 5px 0;
+}
+
+.checklist-container{
+  border: solid 1px rgba(0, 0, 0, 0.25);
+  border-radius: 8px;
+  overflow-x: auto;
+  max-height: 300px;
+}
+
+.checklist {
+  display: flex;
+  align-items: center;
+  border-bottom: solid 1px rgba(0, 0, 0, 0.25);
+  font-size: 13px;
+}
+
+.checklist .checkbox-group{
+  border-right: solid 1px rgba(0, 0, 0, 0.25);
+}
+
+.checklist span{
+  margin-left: 10px;
+}
+
+.requirement-label{
+  margin: 0;
+}
+
+.closing{
+  border: solid 1px rgba(0, 0, 0, 0.25);
+  border-radius: 8px;
+  padding: 10px;
+  color: rgba(0, 0, 0, 0.65);
+  font-weight: bold;
+  margin-top: 20px;
+  margin-left: 10px;
+  height: 100%;
+}
+
+.closing .row{
+  margin: 0;
+}
+
+.date-assessed, .payment-num{
+  padding: 0 5px;
+}
+
+.staff-row{
+  padding: 5px;
+}
+
+.staff-name{
+  width: 100%;
+}
+
+.form-footer{
+  font-family: Poppins;
+  margin-top: 20px;
+  display: flex;
+  justify-content: right;
+}
+
+.submit-btn{
+  color: white;
+  background-color: #004402;
+  padding: 10px 50px;
+  cursor: pointer;
+  border-style: none;
+  border-radius: 5px;
+}
+
+#submit-button[disabled] {
+  background-color: #ccc;
+  color: #888;
+  cursor: not-allowed;
+}
